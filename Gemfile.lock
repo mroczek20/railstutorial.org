@@ -1,6 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    a14z6ch_elapsed_days (0.0.5)
+      activesupport
+      colorize
+      thor
     actioncable (5.1.4)
       actionpack (= 5.1.4)
       nio4r (~> 2.0)
@@ -63,6 +67,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    colorize (0.8.1)
     concurrent-ruby (1.0.5)
     crass (1.0.3)
     erubi (1.7.1)
@@ -216,6 +221,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  a14z6ch_elapsed_days (~> 0.0.5)
   bcrypt (= 3.1.11)
   bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 1.0.0)
